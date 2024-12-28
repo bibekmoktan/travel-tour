@@ -1,0 +1,54 @@
+.hero__subtitle img{
+    width: 2.3rem;
+    height: 2.3rem;
+}
+.hero__content{
+    font-size: 3.2rem;
+    font-weight:600;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    color: var(--heading-color);
+}
+.hero__content span.highlight{
+    color: orange;
+}
+.hero__content p{
+    font-size: 1.1rem;
+    font-weight: 300;
+}
+
+.hero__img-box img, .hero__img-box video{
+    width: 100%;
+    height: 350px;
+    border-radius: 20px;
+    border: 1px solid #79D7BE;
+    object-fit: cover;
+}
+.hero__content{
+    padding-top: 3.5rem;
+}
+.hero__img-box{
+    padding-top: 2rem;
+}
+.services__subtitle{
+    font-size: 2.2rem;
+    font-weight: 500;
+    color: lightblue;
+    font-family: var(--subtitle-font-name);
+}
+.services__title{
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+.top__selling_destination{
+    margin-left: 6rem;
+    margin-right: 6rem;
+    box-shadow: 0 4px 8px rgba(7, 7, 7, 0.1); /* Adjust values as needed */
+    border-radius: 8px; /* Optional: For rounded corners */
+    padding: 20px; /* Optional: Adds spacing inside the section */
+    background-color: #fff; /* Optional: Adds a background color */
+}
+.top_destination{
+    font-size: 2.3rem;
+    font-weight: 500;
+}
